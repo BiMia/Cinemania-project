@@ -3,5 +3,4 @@ import './js/utils/scroll-top-btn';
 import './js/utils/mobile-menu';
 
 import './js/partials/hero';
-import './js/partials/trends';
-import './js/partials/upcoming';
+import './js/partials/catalog';

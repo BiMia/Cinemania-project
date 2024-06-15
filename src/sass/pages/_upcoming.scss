@@ -1,0 +1,162 @@
+.upcoming__wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    @include screen(desktop) {
+      gap: 28px;
+    }
+  }
+
+.upcoming__title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-transform: uppercase;
+
+    @include screen(tablet) {
+      font-size: 24px;
+      line-height: 1.17;
+    }
+
+    @include screen(desktop) {
+      font-size: 28px;
+      line-height: 1.22;
+    }
+  }
+
+  .upcoming__content {
+    @include screen(desktop) {
+      display: flex;
+      gap: 16px;
+    }
+  }
+
+  .upcoming__thumb {
+    margin-bottom: 24px;
+
+    @include screen(tablet) {
+      margin-bottom: 32px;
+    }
+
+    @include screen(desktop) {
+      width: 805px;
+    }
+  }
+
+ .upcoming__image {
+    border-radius: 5px;
+  }
+
+  .upcoming__meta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+
+    @include screen(desktop) {
+      width: 390px;
+    }
+  }
+
+  .upcoming__caption {
+    font-weight: $fw-medium;
+    font-size: 20px;
+    line-height: 1.15;
+    text-transform: uppercase;
+
+    @include screen(tablet) {
+      font-size: 24px;
+      line-height: 1.17;
+    }
+
+    @include screen(desktop) {
+      font-size: 32px;
+      line-height: 1.19;
+    }
+  }
+
+  .upcoming__ctx {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    @include screen(tablet) {
+      flex-direction: row;
+      gap: 100px;
+    }
+
+    @include screen(desktop) {
+      flex-direction: column;
+      gap: 12px;
+    }
+  }
+
+  .upcoming__list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .upcoming__item {
+    display: flex;
+    gap: 60px;
+    font-weight: $fw-medium;
+    font-size: 14px;
+    line-height: 1.14;
+
+    @include screen(desktop) {
+      gap: 58px;
+      font-size: 16px;
+      line-height: 1.19;
+    }
+  }
+
+  .upcoming__desc {
+    min-width: 80px;
+    color: $text-color-grey;
+
+    @include screen(desktop) {
+      min-width: 89px;
+    }
+  }
+
+  .upcoming__value {
+    @include screen(tablet) {
+      width: 150px;
+    }
+
+    @include screen(desktop) {
+      width: 200px;
+    }
+  }
+
+  .upcoming__date {
+    color: $text-color-accent;
+  }
+
+  .upcoming__about {
+    @include screen(tablet) {
+    }
+  }
+
+  .upcoing__subtitle {
+    color: $text-color-grey;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+
+    @include screen(tablet) {
+    }
+  }
+
+  .upcoming__text {
+    font-weight: $fw-regular;
+    font-size: 12px;
+    line-height: 1.67;
+    color: $text-color-secondary;
+
+    @include screen(desktop) {
+      font-size: 14px;
+      line-height: 1.43;
+    }
+  }
