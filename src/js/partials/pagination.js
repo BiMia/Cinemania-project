@@ -1,3 +1,4 @@
+const Pagination = require('tui-pagination');
 
 import { renderCatalogMovieList, renderSearchMovieList } from './catalog';
 import { scrollUp } from '../utils/scroll-up';

@@ -2,9 +2,8 @@ import { Loading } from 'notiflix/build/notiflix-loading-aio';
 
 import { fetchSearchMovies } from '../services/fetch-api';
 import { movieListMarkup } from '../markup/movieListMarkup';
-import initPagination from './pagination';
+import {initPagination} from './pagination.js';
 import { openMovieInfoModal } from '../utils/modal.js';
-import { scrollUp } from '../utils/scroll-up';
 import { refs } from '../refs.js';
 
 refs.catalogForm.addEventListener('submit', handlerSubmit);
